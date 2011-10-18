@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39EE4A5E144DE1800087AC7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EE4A5D144DE1800087AC7E /* Foundation.framework */; };
+		39EE4A64144DE1800087AC7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39EE4A62144DE1800087AC7E /* InfoPlist.strings */; };
+		39EE4A6D144DE1900087AC7E /* OuterClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 39EE4A6B144DE1900087AC7E /* OuterClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39EE4A6E144DE1900087AC7E /* OuterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE4A6C144DE1900087AC7E /* OuterClass.m */; };
+		39EE4AB3144DE29A0087AC7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EE4AB2144DE29A0087AC7E /* UIKit.framework */; };
+		39EE4AB4144DE29A0087AC7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EE4A5D144DE1800087AC7E /* Foundation.framework */; };
+		39EE4AB6144DE29A0087AC7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EE4AB5144DE29A0087AC7E /* CoreGraphics.framework */; };
+		39EE4ABC144DE29A0087AC7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39EE4ABA144DE29A0087AC7E /* InfoPlist.strings */; };
+		39EE4ABE144DE29A0087AC7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE4ABD144DE29A0087AC7E /* main.m */; };
+		39EE4AC2144DE29A0087AC7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE4AC1144DE29A0087AC7E /* AppDelegate.m */; };
+		39EE4AC5144DE29A0087AC7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE4AC4144DE29A0087AC7E /* ViewController.m */; };
+		39EE4AC8144DE29A0087AC7E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39EE4AC6144DE29A0087AC7E /* ViewController.xib */; };
+		39EE4ACE144DE3000087AC7E /* OuterFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EE4A5A144DE1800087AC7E /* OuterFW.framework */; };
+		39EE4ACF144DE3980087AC7E /* InnerFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EE4AA9144DE2690087AC7E /* InnerFW.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39EE4AA8144DE2690087AC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39EE4AA1144DE2690087AC7E /* InnerFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39EE4A7D144DE1AD0087AC7E;
+			remoteInfo = InnerFW;
+		};
+		39EE4AAA144DE26F0087AC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39EE4AA1144DE2690087AC7E /* InnerFW.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 39EE4A7C144DE1AD0087AC7E;
+			remoteInfo = InnerFW;
+		};
+		39EE4ACC144DE2A00087AC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39EE4A4E144DE1800087AC7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39EE4A59144DE1800087AC7E;
+			remoteInfo = OuterFW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39EE4A5A144DE1800087AC7E /* OuterFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = OuterFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EE4A5D144DE1800087AC7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39EE4A61144DE1800087AC7E /* OuterFW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OuterFW-Info.plist"; sourceTree = "<group>"; };
+		39EE4A63144DE1800087AC7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39EE4A65144DE1800087AC7E /* OuterFW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OuterFW-Prefix.pch"; sourceTree = "<group>"; };
+		39EE4A6B144DE1900087AC7E /* OuterClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OuterClass.h; sourceTree = "<group>"; };
+		39EE4A6C144DE1900087AC7E /* OuterClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OuterClass.m; sourceTree = "<group>"; };
+		39EE4AA1144DE2690087AC7E /* InnerFW.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = InnerFW.xcodeproj; path = InnerFW/InnerFW.xcodeproj; sourceTree = "<group>"; };
+		39EE4AB0144DE29A0087AC7E /* OuterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OuterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EE4AB2144DE29A0087AC7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39EE4AB5144DE29A0087AC7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39EE4AB9144DE29A0087AC7E /* OuterApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OuterApp-Info.plist"; sourceTree = "<group>"; };
+		39EE4ABB144DE29A0087AC7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39EE4ABD144DE29A0087AC7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39EE4ABF144DE29A0087AC7E /* OuterApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OuterApp-Prefix.pch"; sourceTree = "<group>"; };
+		39EE4AC0144DE29A0087AC7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39EE4AC1144DE29A0087AC7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39EE4AC3144DE29A0087AC7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39EE4AC4144DE29A0087AC7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39EE4AC7144DE29A0087AC7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39EE4A55144DE1800087AC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE4ACF144DE3980087AC7E /* InnerFW.framework in Frameworks */,
+				39EE4A5E144DE1800087AC7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EE4AAD144DE29A0087AC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE4ACE144DE3000087AC7E /* OuterFW.framework in Frameworks */,
+				39EE4AB3144DE29A0087AC7E /* UIKit.framework in Frameworks */,
+				39EE4AB4144DE29A0087AC7E /* Foundation.framework in Frameworks */,
+				39EE4AB6144DE29A0087AC7E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39EE4A4C144DE1800087AC7E = {
+			isa = PBXGroup;
+			children = (
+				39EE4A5F144DE1800087AC7E /* OuterFW */,
+				39EE4AB7144DE29A0087AC7E /* OuterApp */,
+				39EE4A5C144DE1800087AC7E /* Frameworks */,
+				39EE4A5B144DE1800087AC7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39EE4A5B144DE1800087AC7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39EE4A5A144DE1800087AC7E /* OuterFW.framework */,
+				39EE4AB0144DE29A0087AC7E /* OuterApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39EE4A5C144DE1800087AC7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39EE4AA1144DE2690087AC7E /* InnerFW.xcodeproj */,
+				39EE4A5D144DE1800087AC7E /* Foundation.framework */,
+				39EE4AB2144DE29A0087AC7E /* UIKit.framework */,
+				39EE4AB5144DE29A0087AC7E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39EE4A5F144DE1800087AC7E /* OuterFW */ = {
+			isa = PBXGroup;
+			children = (
+				39EE4A60144DE1800087AC7E /* Supporting Files */,
+				39EE4A6B144DE1900087AC7E /* OuterClass.h */,
+				39EE4A6C144DE1900087AC7E /* OuterClass.m */,
+			);
+			path = OuterFW;
+			sourceTree = "<group>";
+		};
+		39EE4A60144DE1800087AC7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39EE4A61144DE1800087AC7E /* OuterFW-Info.plist */,
+				39EE4A62144DE1800087AC7E /* InfoPlist.strings */,
+				39EE4A65144DE1800087AC7E /* OuterFW-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39EE4AA2144DE2690087AC7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39EE4AA9144DE2690087AC7E /* InnerFW.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39EE4AB7144DE29A0087AC7E /* OuterApp */ = {
+			isa = PBXGroup;
+			children = (
+				39EE4AC0144DE29A0087AC7E /* AppDelegate.h */,
+				39EE4AC1144DE29A0087AC7E /* AppDelegate.m */,
+				39EE4AC3144DE29A0087AC7E /* ViewController.h */,
+				39EE4AC4144DE29A0087AC7E /* ViewController.m */,
+				39EE4AC6144DE29A0087AC7E /* ViewController.xib */,
+				39EE4AB8144DE29A0087AC7E /* Supporting Files */,
+			);
+			path = OuterApp;
+			sourceTree = "<group>";
+		};
+		39EE4AB8144DE29A0087AC7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39EE4AB9144DE29A0087AC7E /* OuterApp-Info.plist */,
+				39EE4ABA144DE29A0087AC7E /* InfoPlist.strings */,
+				39EE4ABD144DE29A0087AC7E /* main.m */,
+				39EE4ABF144DE29A0087AC7E /* OuterApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39EE4A56144DE1800087AC7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE4A6D144DE1900087AC7E /* OuterClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39EE4A59144DE1800087AC7E /* OuterFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39EE4A68144DE1800087AC7E /* Build configuration list for PBXNativeTarget "OuterFW" */;
+			buildPhases = (
+				39EE4A53144DE1800087AC7E /* ShellScript */,
+				39EE4A54144DE1800087AC7E /* Sources */,
+				39EE4A55144DE1800087AC7E /* Frameworks */,
+				39EE4A56144DE1800087AC7E /* Headers */,
+				39EE4A57144DE1800087AC7E /* Resources */,
+				39EE4A58144DE1800087AC7E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39EE4AAB144DE26F0087AC7E /* PBXTargetDependency */,
+			);
+			name = OuterFW;
+			productName = OuterFW;
+			productReference = 39EE4A5A144DE1800087AC7E /* OuterFW.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+		39EE4AAF144DE29A0087AC7E /* OuterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39EE4AC9144DE29A0087AC7E /* Build configuration list for PBXNativeTarget "OuterApp" */;
+			buildPhases = (
+				39EE4AAC144DE29A0087AC7E /* Sources */,
+				39EE4AAD144DE29A0087AC7E /* Frameworks */,
+				39EE4AAE144DE29A0087AC7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39EE4ACD144DE2A00087AC7E /* PBXTargetDependency */,
+			);
+			name = OuterApp;
+			productName = OuterApp;
+			productReference = 39EE4AB0144DE29A0087AC7E /* OuterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39EE4A4E144DE1800087AC7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Stenerud;
+			};
+			buildConfigurationList = 39EE4A51144DE1800087AC7E /* Build configuration list for PBXProject "OuterFW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39EE4A4C144DE1800087AC7E;
+			productRefGroup = 39EE4A5B144DE1800087AC7E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 39EE4AA2144DE2690087AC7E /* Products */;
+					ProjectRef = 39EE4AA1144DE2690087AC7E /* InnerFW.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				39EE4A59144DE1800087AC7E /* OuterFW */,
+				39EE4AAF144DE29A0087AC7E /* OuterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		39EE4AA9144DE2690087AC7E /* InnerFW.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework.static;
+			path = InnerFW.framework;
+			remoteRef = 39EE4AA8144DE2690087AC7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39EE4A57144DE1800087AC7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE4A64144DE1800087AC7E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EE4AAE144DE29A0087AC7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE4ABC144DE29A0087AC7E /* InfoPlist.strings in Resources */,
+				39EE4AC8144DE29A0087AC7E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39EE4A53144DE1800087AC7E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
+		};
+		39EE4A58144DE1800087AC7E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\necho \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39EE4A54144DE1800087AC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE4A6E144DE1900087AC7E /* OuterClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EE4AAC144DE29A0087AC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE4ABE144DE29A0087AC7E /* main.m in Sources */,
+				39EE4AC2144DE29A0087AC7E /* AppDelegate.m in Sources */,
+				39EE4AC5144DE29A0087AC7E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39EE4AAB144DE26F0087AC7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InnerFW;
+			targetProxy = 39EE4AAA144DE26F0087AC7E /* PBXContainerItemProxy */;
+		};
+		39EE4ACD144DE2A00087AC7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39EE4A59144DE1800087AC7E /* OuterFW */;
+			targetProxy = 39EE4ACC144DE2A00087AC7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39EE4A62144DE1800087AC7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39EE4A63144DE1800087AC7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39EE4ABA144DE29A0087AC7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39EE4ABB144DE29A0087AC7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39EE4AC6144DE29A0087AC7E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39EE4AC7144DE29A0087AC7E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39EE4A66144DE1800087AC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39EE4A67144DE1800087AC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39EE4A69144DE1800087AC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OuterFW/OuterFW-Prefix.pch";
+				INFOPLIST_FILE = "OuterFW/OuterFW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		39EE4A6A144DE1800087AC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OuterFW/OuterFW-Prefix.pch";
+				INFOPLIST_FILE = "OuterFW/OuterFW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		39EE4ACA144DE29A0087AC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OuterApp/OuterApp-Prefix.pch";
+				INFOPLIST_FILE = "OuterApp/OuterApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39EE4ACB144DE29A0087AC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OuterApp/OuterApp-Prefix.pch";
+				INFOPLIST_FILE = "OuterApp/OuterApp-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39EE4A51144DE1800087AC7E /* Build configuration list for PBXProject "OuterFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39EE4A66144DE1800087AC7E /* Debug */,
+				39EE4A67144DE1800087AC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39EE4A68144DE1800087AC7E /* Build configuration list for PBXNativeTarget "OuterFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39EE4A69144DE1800087AC7E /* Debug */,
+				39EE4A6A144DE1800087AC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39EE4AC9144DE29A0087AC7E /* Build configuration list for PBXNativeTarget "OuterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39EE4ACA144DE29A0087AC7E /* Debug */,
+				39EE4ACB144DE29A0087AC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39EE4A4E144DE1800087AC7E /* Project object */;
+}
